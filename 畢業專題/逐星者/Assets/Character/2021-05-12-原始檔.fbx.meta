@@ -1,0 +1,524 @@
+fileFormatVersion: 2
+guid: 45d61a6dc66ede34680a985aceff3b40
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #69
+    second: {fileID: 2100000, guid: 0d285e7724068c840a192c2184eb4db9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #71
+    second: {fileID: 2100000, guid: 9bf0bc5914a726f4ebb954106a3a2217, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftFoot' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: "2021-05-12-\u539F\u59CB\u6A94(Clone)"
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Global-Ctrl
+      parentName: "2021-05-12-\u539F\u59CB\u6A94(Clone)"
+      position: {x: -0.000000012111663, y: 0, z: -0.023911232}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 2.028587, y: 2.028587, z: 2.028587}
+    - name: L-Leg-Ctrl
+      parentName: Global-Ctrl
+      position: {x: -0.12323849, y: -0.0056988024, z: 0.001993362}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.35942307, y: 0.35942307, z: 0.35942307}
+    - name: L-Foot-IK-Ctrl
+      parentName: L-Leg-Ctrl
+      position: {x: 0.0031231137, y: -0.014333581, z: 0.028934166}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.3715144, y: 1.3715144, z: 1.3715144}
+    - name: L-Foot-IK
+      parentName: L-Foot-IK-Ctrl
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R-Leg-Ctrl
+      parentName: Global-Ctrl
+      position: {x: 0.12323849, y: -0.009122473, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.35942307, y: 0.35942307, z: 0.35942307}
+    - name: R-Foot-IK-Ctrl
+      parentName: R-Leg-Ctrl
+      position: {x: -0.028615016, y: -0.014333797, z: 0.028934114}
+      rotation: {x: -0.00000023841858, y: 0, z: -0, w: 1}
+      scale: {x: 1.3715144, y: 1.3715144, z: 1.3715144}
+    - name: R-Foot-IK
+      parentName: R-Foot-IK-Ctrl
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Body-Ctrl
+      parentName: Global-Ctrl
+      position: {x: 0.000000002835882, y: 0.000000003027916, z: 0.13549682}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.72776514, y: 0.72776514, z: 0.72776514}
+    - name: Buttom-Ctrl
+      parentName: Body-Ctrl
+      position: {x: -0, y: 0, z: -0.000000012111664}
+      rotation: {x: 0, y: -0, z: -0.026176952, w: 0.99965733}
+      scale: {x: 0.6663886, y: 0.6663886, z: 0.6663887}
+    - name: Spin-Ctrl
+      parentName: Body-Ctrl
+      position: {x: -0, y: 0, z: -0.000000012111664}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.8280748, y: 0.8280748, z: 0.8280748}
+    - name: Spine1-Bone
+      parentName: Body-Ctrl
+      position: {x: 0.000000003599207, y: 0.000000024223327, z: 0}
+      rotation: {x: -0.15343787, y: 0.6860055, z: -0.17145406, w: 0.69025856}
+      scale: {x: 0.67735296, y: 0.67735296, z: 0.6773529}
+    - name: Bone011
+      parentName: Spine1-Bone
+      position: {x: 0.009669371, y: -0.021898929, z: 1.8924474e-10}
+      rotation: {x: 0.16177048, y: -0.679802, z: 0.6965349, w: -0.16290753}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: Tail-Ctrl
+      parentName: Bone011
+      position: {x: 0.054344285, y: -0.0009909213, z: -0.42489693}
+      rotation: {x: -0.20003453, y: 0.1657229, z: -0.6902588, w: 0.6753259}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.99999994}
+    - name: Circle029
+      parentName: Tail-Ctrl
+      position: {x: -0.0112440875, y: -0.024033125, z: -0.261615}
+      rotation: {x: 0.052335948, y: 0.0000000022147926, z: -8.3030366e-10, w: 0.9986295}
+      scale: {x: 0.92816037, y: 0.9281604, z: 0.9281605}
+    - name: Circle030
+      parentName: Circle029
+      position: {x: -0.012229707, y: 0.084831014, z: -0.217671}
+      rotation: {x: 0.54463905, y: 0.0000000053243494, z: -3.8120893e-10, w: 0.83867055}
+      scale: {x: 1.0773998, y: 1.0774, z: 1.0774001}
+    - name: Circle031
+      parentName: Circle030
+      position: {x: -0.007817292, y: 0.035707075, z: -0.23286873}
+      rotation: {x: 0.40673667, y: 0.0000000022017912, z: -0.0000000023369615, w: 0.9135454}
+      scale: {x: 1.13545, y: 1.13545, z: 1.1354499}
+    - name: R-Butt-Ctrl
+      parentName: Bone011
+      position: {x: -0.029932475, y: -0.49978063, z: -0.000008629572}
+      rotation: {x: 0.00000029810946, y: -0.0000096118065, z: 0.9999923, w: 0.003921495}
+      scale: {x: -0.6421827, y: -0.6421827, z: -0.6421825}
+    - name: L-Butt-Spin-Ctrl
+      parentName: Bone011
+      position: {x: -0.012871041, y: 0.11740384, z: -0.0061508114}
+      rotation: {x: 0.99964976, y: -0.003925123, z: 0.00031800492, w: 0.026170006}
+      scale: {x: 0.64218277, y: 0.64218277, z: 0.6421828}
+    - name: R-Butt-Spin-Ctrl
+      parentName: Bone011
+      position: {x: -0.0145676425, y: -0.098627076, z: 0.005167147}
+      rotation: {x: 0.70710135, y: 0.0028042225, z: 0.7071012, w: 0.0027752223}
+      scale: {x: 0.6421827, y: 0.6421827, z: 0.6421824}
+    - name: L-Butt-Ctrl
+      parentName: Bone011
+      position: {x: -0.022090197, y: 0.50018865, z: 0.00000870663}
+      rotation: {x: 0.9999923, y: -0.0039205407, z: 0.0002150625, w: -0.000006746899}
+      scale: {x: 0.6421825, y: 0.6421828, z: 0.64218265}
+    - name: Tail-Bone
+      parentName: Bone011
+      position: {x: 0.054174334, y: -0.00041751345, z: -0.42550227}
+      rotation: {x: 0.62643266, y: -0.32801047, z: 0.32308212, w: 0.62897474}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: Tail1-Bone
+      parentName: Tail-Bone
+      position: {x: -0.26319808, y: -0.00000014533997, z: 0.000000032455475}
+      rotation: {x: 0.000000002393611, y: 0.000000044323578, z: 0.27961153, w: 0.9601132}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: Tail2-Bone
+      parentName: Tail1-Bone
+      position: {x: -0.21742839, y: 0.000000024223327, z: 0.000000034158678}
+      rotation: {x: 0.000000034833484, y: 0.000000122102, z: 0.44886088, w: 0.89360166}
+      scale: {x: 0.9999998, y: 0.9999999, z: 1}
+    - name: Tail3-Bone
+      parentName: Tail2-Bone
+      position: {x: -0.23584999, y: 0, z: 0.000000025358796}
+      rotation: {x: -0.000000031003978, y: 0.00000004008788, z: 0.32235217, w: 0.9466198}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1}
+    - name: Tail-Bone-End
+      parentName: Tail3-Bone
+      position: {x: -0.2685318, y: 0.0000062980653, z: 0.000000022945926}
+      rotation: {x: -5.684342e-14, y: -4.5474735e-13, z: -2.5849394e-26, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L-Butt-Bone
+      parentName: Bone011
+      position: {x: -0.012871017, y: 0.11756488, z: 0.0000020589828}
+      rotation: {x: 0.03788167, y: -0.07741273, z: -0.50906146, w: 0.85640454}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: L-Thigh-Bone
+      parentName: L-Butt-Bone
+      position: {x: -0.13144365, y: 0.000000024223327, z: -0.000000021195412}
+      rotation: {x: -0.112549454, y: 0.10881616, z: 0.7094368, w: 0.6871616}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: L-Calf-Bone
+      parentName: L-Thigh-Bone
+      position: {x: -0.13658775, y: 0.000000048446655, z: 0.000000042390823}
+      rotation: {x: 0.053002737, y: -0.23010232, z: -0.14949675, w: 0.96015334}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+    - name: L-Foot-Bone
+      parentName: L-Calf-Bone
+      position: {x: -0.117087536, y: 0.0000034154891, z: -0.000000027251243}
+      rotation: {x: 0.000000005959977, y: 0.68835455, z: -0.0000000066187473, w: 0.7253744}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R-Butt-Bone
+      parentName: Bone011
+      position: {x: -0.014567715, y: -0.09876235, z: -0.0000017198562}
+      rotation: {x: -0.49308503, y: 0.8649302, z: -0.07841017, w: 0.05113552}
+      scale: {x: -1.0000002, y: -1.0000004, z: -1.0000001}
+    - name: R-Thigh-Bone
+      parentName: R-Butt-Bone
+      position: {x: -0.13144363, y: 0.000000024223327, z: -0.000000022709369}
+      rotation: {x: -0.109158404, y: 0.11217812, z: 0.6893167, w: 0.7073493}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: R-Calf-Bone
+      parentName: R-Thigh-Bone
+      position: {x: -0.13658778, y: 0.000000048446655, z: 0.000000042390823}
+      rotation: {x: 0.05428907, y: -0.24932459, z: -0.13579471, w: 0.95731384}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: R-Foot-Bone
+      parentName: R-Calf-Bone
+      position: {x: -0.117087536, y: 0.000003488159, z: -0.000000027251243}
+      rotation: {x: 0.00000005354188, y: 0.68835455, z: -0.000000053377185, w: 0.7253744}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Spine2-Bone
+      parentName: Spine1-Bone
+      position: {x: -0.1695175, y: 0.000000036334992, z: -0.0000000064343215}
+      rotation: {x: -0.0063699014, y: 0.0045109587, z: 0.22970876, w: 0.9732281}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spine3-Bone
+      parentName: Spine2-Bone
+      position: {x: -0.16391465, y: 0.0000005874157, z: -0.000000013530999}
+      rotation: {x: -0.006538877, y: 0.00028195805, z: 0.04309034, w: 0.9990498}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: Head-Bone
+      parentName: Spine3-Bone
+      position: {x: -0.16658212, y: 0.000000024223327, z: -1.270564e-13}
+      rotation: {x: 0.000000002138378, y: 0.0000000313012, z: -0.04012514, w: 0.9991947}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L-Ear-Bone
+      parentName: Head-Bone
+      position: {x: -0.43674397, y: -0.08278761, z: -0.15004346}
+      rotation: {x: 0.6421219, y: -0.300777, z: 0.29223236, w: 0.6417265}
+      scale: {x: 1, y: 1.0000004, z: 1.0000004}
+    - name: Bone024
+      parentName: L-Ear-Bone
+      position: {x: -0.1359915, y: 0.00000019378662, z: 0.000000004541874}
+      rotation: {x: -0.000004136013, y: -0.00310825, z: -0.0013307238, w: 0.9999943}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Bone025
+      parentName: Bone024
+      position: {x: -0.118129805, y: -0.00000009689331, z: 0.000000003027916}
+      rotation: {x: 0, y: 6.9849193e-10, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Bone010
+      parentName: Head-Bone
+      position: {x: -0.42673916, y: 0.000000012111664, z: 1.8306086e-10}
+      rotation: {x: 3.864964e-15, y: -4.440892e-16, z: 1.7163888e-30, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R-Ear-Bone
+      parentName: Head-Bone
+      position: {x: -0.4252936, y: -0.082855634, z: 0.15021475}
+      rotation: {x: 0.6416411, y: 0.27445686, z: -0.30083793, w: 0.64997435}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: Bone027
+      parentName: R-Ear-Bone
+      position: {x: -0.15405107, y: -0.000000048446655, z: -0.00000001513958}
+      rotation: {x: -0.0003526403, y: 0.02617454, z: 0.013466806, w: 0.9995666}
+      scale: {x: 1, y: 1.0000001, z: 0.9999999}
+    - name: Bone028
+      parentName: Bone027
+      position: {x: -0.10529231, y: 0.000000048446655, z: -0.000000001513958}
+      rotation: {x: -4.656613e-10, y: -6.938895e-18, z: 0.000000014901163, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+    - name: L-Shoulder-Bone
+      parentName: Spine3-Bone
+      position: {x: -0.11333121, y: -0.090299666, z: -0.11754292}
+      rotation: {x: 0.49891102, y: -0.5010867, z: 0.4562681, w: 0.540203}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: L-Arm-Bone-FK
+      parentName: L-Shoulder-Bone
+      position: {x: -0.25783285, y: -0.00000009689331, z: 0.000000001218263}
+      rotation: {x: -0.00000021775897, y: 0.00000028542183, z: 0.112451844, w: 0.9936572}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: L-Hand-Bone-FK
+      parentName: L-Arm-Bone-FK
+      position: {x: -0.15896897, y: 0, z: 0.000000003844496}
+      rotation: {x: 0.00000049158086, y: -0.0000000351075, z: 0.006296306, w: 0.9999802}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: L-Hand-Bone-End-FK
+      parentName: L-Hand-Bone-FK
+      position: {x: -0.12924714, y: -0.00000024223328, z: 0}
+      rotation: {x: -0.0000002387173, y: -0.000000041321286, z: -0.0000000074505895,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L-Arm-Bone-IK
+      parentName: L-Shoulder-Bone
+      position: {x: -0.25783285, y: -0.00000014533997, z: 0.00000000121824}
+      rotation: {x: 0.0069455863, y: -0.059202176, z: 0.11225107, w: 0.99189043}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L-Hand-Bone-IK
+      parentName: L-Arm-Bone-IK
+      position: {x: -0.15896896, y: -0.000000048446655, z: 0}
+      rotation: {x: -0.00044267302, y: 0.07030482, z: 0.0062807905, w: 0.9975057}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1.0000001}
+    - name: L-Hand-Bone-End-IK
+      parentName: L-Hand-Bone-IK
+      position: {x: -0.1292472, y: -0.00000024223328, z: 0.000000003027916}
+      rotation: {x: 1.1641532e-10, y: -0.0000000016152626, z: 1.8804131e-19, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L-Arm-Bone
+      parentName: L-Shoulder-Bone
+      position: {x: -0.25783285, y: -0.00000009689331, z: 0.000000001218263}
+      rotation: {x: -0.00000032782552, y: -0.000000029802319, z: 0.08088792, w: 0.99672323}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: L-Hand-Bone
+      parentName: L-Arm-Bone
+      position: {x: -0.15896904, y: 0, z: -0.000000024223304}
+      rotation: {x: 0.0000004877726, y: -0.000000028031794, z: 0.006296316, w: 0.9999802}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000001}
+    - name: L-Hand-Bone-End
+      parentName: L-Hand-Bone
+      position: {x: -0.1292471, y: -0.00000029067994, z: -4.620233e-14}
+      rotation: {x: -0.00000025704503, y: -0.000000042840863, z: -0.00000001490117,
+        w: 1}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: R-Shoulder-Bone
+      parentName: Spine3-Bone
+      position: {x: -0.102152824, y: -0.091265775, z: 0.122025594}
+      rotation: {x: 0.539859, y: 0.45667544, z: -0.5014626, w: 0.4985329}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000002}
+    - name: R-Arm-Bone-IK
+      parentName: R-Shoulder-Bone
+      position: {x: -0.25823686, y: -0.00000009689331, z: 0.0000000015573997}
+      rotation: {x: -0.004903494, y: -0.0423401, z: -0.115139835, w: 0.99243444}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: R-Hand-Bone-IK
+      parentName: R-Arm-Bone-IK
+      position: {x: -0.15206988, y: 0.000000048446655, z: 0.000000003027916}
+      rotation: {x: 0.00060912047, y: 0.04670422, z: -0.013026753, w: 0.99882364}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+    - name: R-Hand-Bone-End-IK
+      parentName: R-Hand-Bone-IK
+      position: {x: -0.12942421, y: 0.0000016956329, z: 0.000000001513958}
+      rotation: {x: -1.1641534e-10, y: -2.619345e-10, z: -3.049319e-20, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999999}
+    - name: R-Arm-Bone-FK
+      parentName: R-Shoulder-Bone
+      position: {x: -0.25823686, y: -0.00000009689331, z: 0.0000000015573997}
+      rotation: {x: -0.000000090798295, y: 0.0000000084599066, z: -0.115038656, w: 0.99336106}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R-Hand-Bone-FK
+      parentName: R-Arm-Bone-FK
+      position: {x: -0.15206979, y: 0.000000048446655, z: 0.0000000020121231}
+      rotation: {x: 0.00000007708752, y: -0.000000054101317, z: -0.013040995, w: 0.999915}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: R-Hand-Bone-End-FK
+      parentName: R-Hand-Bone-FK
+      position: {x: -0.12942421, y: 0.0000017440796, z: 0.0000000017118656}
+      rotation: {x: 0, y: -3.1086245e-15, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R-Arm-Bone
+      parentName: R-Shoulder-Bone
+      position: {x: -0.25823686, y: -0.00000009689331, z: 0.0000000015573997}
+      rotation: {x: -0, y: 0.00000013411041, z: -0.0799678, w: 0.99679744}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R-Hand-Bone
+      parentName: R-Arm-Bone
+      position: {x: -0.1520698, y: 0.000000048446655, z: 0.0000000020121231}
+      rotation: {x: 0.000000017243039, y: -0.00000006058215, z: -0.013040995, w: 0.999915}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: R-Hand-Bone-End
+      parentName: R-Hand-Bone
+      position: {x: -0.12942421, y: 0.0000016956329, z: 0.0000000017118887}
+      rotation: {x: -0.0000000018626487, y: -4.656524e-10, z: 0.0000000037252903,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Neck-Ctrl
+      parentName: Global-Ctrl
+      position: {x: 0.000000002835882, y: 0.000000003027916, z: 0.37964988}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.5100278, y: 0.5100278, z: 0.5100278}
+    - name: Head-Ctrl
+      parentName: Neck-Ctrl
+      position: {x: -0.000000018819737, y: 0.058019392, z: 0.0045843134}
+      rotation: {x: -0, y: -0.7071067, z: 0, w: 0.7071068}
+      scale: {x: 0.46159258, y: 0.46159258, z: 0.46159258}
+    - name: Point001
+      parentName: Head-Ctrl
+      position: {x: 1.2181473, y: -0.16835453, z: -0.71397024}
+      rotation: {x: 0, y: 0.7071067, z: 0, w: 0.7071068}
+      scale: {x: 2.0938888, y: 2.0938888, z: 2.0938888}
+    - name: IK Chain003
+      parentName: Point001
+      position: {x: -0, y: -0.00000004390478, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Point002
+      parentName: Head-Ctrl
+      position: {x: 1.2307171, y: -0.17014234, z: 0.731262}
+      rotation: {x: 0, y: 0.7071067, z: 0, w: 0.7071068}
+      scale: {x: 2.0938888, y: 2.0938888, z: 2.0938888}
+    - name: IK Chain002
+      parentName: Point002
+      position: {x: -0, y: -0.0000002499923, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "\u98A8\u93E1"
+      parentName: Head-Ctrl
+      position: {x: 0.47748065, y: -0.17576142, z: 0.009617799}
+      rotation: {x: -0.00000014387986, y: 0.7009094, z: -0.000000025743967, w: 0.71325034}
+      scale: {x: 2.198584, y: 2.093889, z: 2.093889}
+    - name: L-Shoulder-Ctrl
+      parentName: Neck-Ctrl
+      position: {x: -0.43493566, y: -0.02311078, z: 0.08203399}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 0.40000004, y: 0.40000004, z: 0.40000004}
+    - name: Circle034
+      parentName: L-Shoulder-Ctrl
+      position: {x: 0.1839632, y: -0.31805617, z: 0.00000024223326}
+      rotation: {x: -0, y: -0.7071066, z: 0, w: 0.70710707}
+      scale: {x: 0.85405827, y: 0.85405827, z: 0.85405827}
+    - name: Circle035
+      parentName: Circle034
+      position: {x: 0.00000009522439, y: -0.05254989, z: 0.44667563}
+      rotation: {x: -5.5977716e-20, y: -4.5739757e-20, z: -0.0000004768372, w: 1}
+      scale: {x: 0.786844, y: 0.786844, z: 0.78684396}
+    - name: L-Shoulder-Ctrl001
+      parentName: Neck-Ctrl
+      position: {x: 0.11521271, y: -0.023110798, z: -0.07211696}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 0.40000004, y: 0.40000004, z: 0.40000004}
+    - name: Circle038
+      parentName: L-Shoulder-Ctrl001
+      position: {x: 0.6248322, y: 0.05897973, z: 2.3101165e-14}
+      rotation: {x: 0.00000015148956, y: -0.000000018600588, z: 2.8177944e-15, w: 1}
+      scale: {x: 0.85405827, y: 0.8540582, z: 0.8540582}
+    - name: Circle039
+      parentName: Circle038
+      position: {x: 0.42841107, y: -0.039600875, z: 0}
+      rotation: {x: 0.00000013260178, y: 0.7071065, z: -0.00000013260167, w: 0.7071071}
+      scale: {x: 0.786844, y: 0.7868441, z: 0.78684384}
+    - name: R-Hand-IK-Ctrl
+      parentName: Global-Ctrl
+      position: {x: 0.32396168, y: -0.0059290444, z: 0.34050515}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+      scale: {x: 0.49295393, y: 0.4929539, z: 0.4929539}
+    - name: IK Chain001
+      parentName: R-Hand-IK-Ctrl
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: L-Hand-IK-Ctrl
+      parentName: Global-Ctrl
+      position: {x: -0.3247373, y: -0.0038278247, z: 0.3392804}
+      rotation: {x: 4.5836886e-16, y: -0, z: -0, w: 1}
+      scale: {x: 0.49295393, y: 0.49295378, z: 0.49295378}
+    - name: L-Hand-IK
+      parentName: L-Hand-IK-Ctrl
+      position: {x: -0.000000048446655, y: 0.000000001513958, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: "\u672C\u9AD4"
+      parentName: "2021-05-12-\u539F\u59CB\u6A94(Clone)"
+      position: {x: -0, y: 0.7397801, z: 0}
+      rotation: {x: -0.7070799, y: -0.006170593, z: 0.006170593, w: 0.7070799}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
